@@ -62,8 +62,8 @@ chunks:
     snowball: -1
   fixed-chunk-inhabited-time: -1
   flush-regions-on-save: false
-  max-auto-save-chunks-per-tick: 24
-  prevent-moving-into-unloaded-chunks: false
+  max-auto-save-chunks-per-tick: 8
+  prevent-moving-into-unloaded-chunks: true
 collisions:
   allow-player-cramming-damage: false
   allow-vehicle-collisions: true
@@ -140,7 +140,7 @@ entities:
       items:
         cobblestone: 300
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: default
+    creative-arrow-despawn-rate: 60
     despawn-range-shape: ELLIPSOID
     despawn-ranges:
       ambient:
@@ -181,7 +181,7 @@ entities:
     - sleeping_pos
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
-    non-player-arrow-despawn-rate: default
+    non-player-arrow-despawn-rate: 60
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
@@ -239,7 +239,7 @@ environment:
   max-block-ticks: 65536
   max-fluid-ticks: 65536
   nether-ceiling-void-damage-height: disabled
-  optimize-explosions: false
+  optimize-explosions: true
   portal-create-radius: 16
   portal-search-radius: 128
   portal-search-vanilla-dimension-scaling: true
@@ -265,7 +265,7 @@ fixes:
   tnt-entity-height-nerf: disabled
 hopper:
   cooldown-when-full: true
-  disable-move-event: false
+  disable-move-event: true
   ignore-occluding-blocks: false
 lootables:
   auto-replenish: false
@@ -305,10 +305,10 @@ tick-rates:
   behavior:
     villager:
       validatenearbypoi: -1
-  container-update: 1
+  container-update: 3
   dry-farmland: 1
-  grass-spread: 1
-  mob-spawner: 1
+  grass-spread: 4
+  mob-spawner: 2
   sensor:
     villager:
       secondarypoisensor: 40
