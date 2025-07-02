@@ -140,7 +140,7 @@ entities:
       items:
         cobblestone: 300
     count-all-mobs-for-spawning: false
-    creative-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: '60'
     despawn-range-shape: ELLIPSOID
     despawn-ranges:
       ambient:
@@ -181,7 +181,7 @@ entities:
     - sleeping_pos
     iron-golems-can-spawn-in-air: false
     monster-spawn-max-light-level: default
-    non-player-arrow-despawn-rate: 60
+    non-player-arrow-despawn-rate: '60'
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
     skeleton-horse-thunder-spawn-chance: default
