@@ -1,168 +1,375 @@
-[08:05:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1027-azure (amd64)
-[08:05:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.6-47-main@57c202e (2025-06-28T20:15:05Z) for Minecraft 1.21.6
-[08:05:18] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[08:05:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[08:05:19] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[14:12:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1027-azure (amd64)
+[14:12:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.6-47-main@57c202e (2025-06-28T20:15:05Z) for Minecraft 1.21.6
+[14:12:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:12:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[14:12:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - BetterStructures (1.8.2), Geyser-Spigot (2.8.0-SNAPSHOT), WorldEdit (7.3.15-beta-01+5a731d2), WorldGuard (7.0.14+2339-43997ec), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[08:05:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:05:26] [ServerMain/INFO]: Loaded 1407 recipes
-[08:05:26] [ServerMain/INFO]: Loaded 1520 advancements
-[08:05:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[08:05:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 462.0ms
-[08:05:26] [Server thread/INFO]: Starting minecraft server version 1.21.6
-[08:05:26] [Server thread/INFO]: Loading properties
-[08:05:27] [Server thread/INFO]: This server is running Paper version 1.21.6-47-main@57c202e (2025-06-28T20:15:05Z) (Implementing API version 1.21.6-R0.1-SNAPSHOT)
-[08:05:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[08:05:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:05:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:05:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[08:05:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[08:05:28] [Server thread/INFO]: Default game type: SURVIVAL
-[08:05:28] [Server thread/INFO]: Generating keypair
-[08:05:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:05:28] [Server thread/INFO]: Using epoll channel type
-[08:05:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[08:05:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[08:05:28] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.15-beta-01+5a731d2
-[08:05:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6a84e6d6]
-[08:05:29] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
-[08:05:29] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[08:05:30] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[08:05:30] [Server thread/INFO]: [floodgate] Took 758ms to boot Floodgate
-[08:05:30] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.8.2
-[08:05:30] [Server thread/INFO]: [BetterStructures] MagmaCore v1.13-SNAPSHOT initialized!
-[08:05:30] [Server thread/INFO]: [BetterStructures] Registered /logify command
-[08:05:30] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
-[08:05:30] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.0-SNAPSHOT
-[08:05:30] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[08:05:30] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[08:05:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:05:30] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.15-beta-01+5a731d2
-[08:05:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[08:05:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[08:05:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[08:05:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:05:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:05:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:05:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:05:32] [Server thread/INFO]: Preparing level "world"
-[08:05:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:05:33] [Server thread/INFO]: Preparing spawn area: 0%
-[08:05:34] [Server thread/INFO]: Preparing spawn area: 8%
-[08:05:34] [Server thread/INFO]: Time elapsed: 947 ms
-[08:05:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:05:34] [Server thread/INFO]: Preparing spawn area: 0%
-[08:05:35] [Server thread/INFO]: Time elapsed: 254 ms
-[08:05:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:05:35] [Server thread/INFO]: Preparing spawn area: 0%
-[08:05:35] [Server thread/INFO]: Time elapsed: 146 ms
-[08:05:35] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world) Blacklist loaded with 2 entries.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Blacklist loaded with 2 entries.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Blacklist loaded with 2 entries.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[08:05:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[08:05:35] [Server thread/INFO]: [WorldGuard] Loading region data...
-[08:05:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[08:05:36] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.8.2
-[08:05:36] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
-[08:05:36] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
-[08:05:36] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
-[08:05:36] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
-[08:05:36] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
-[08:05:36] [Server thread/INFO]: [BetterStructures] Initialized version 1.8.2!
-[08:05:36] [Server thread/INFO]: [BetterStructures] Supported server version detected: v1_21_R5
-[08:05:36] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 63 ms to scan 1 urls, producing 1 keys and 5 values
-[08:05:36] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 29 values
-[08:05:36] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 1 values
-[08:05:36] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 85 ms to scan 121 urls, producing 0 keys and 0 values
-[08:05:37] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 8 values
-[08:05:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.0-SNAPSHOT
-[08:05:37] [Server thread/INFO]: [spark] Starting background profiler...
-[08:05:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[08:05:37] [Server thread/INFO]: [Geyser-Spigot] 
-[08:05:37] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.0-b867 (git-master-a768be3)
-[08:05:37] [Server thread/INFO]: [Geyser-Spigot] 
-[08:05:37] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[08:05:42] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[08:05:42] [Server thread/INFO]: [Geyser-Spigot] Done (4.204s)! Run /geyser help for help!
-[08:05:42] [Server thread/INFO]: Done preparing level "world" (9.324s)
-[08:05:42] [Server thread/INFO]: Starting GS4 status listener
-[08:05:42] [Server thread/INFO]: Thread Query Listener started
-[08:05:42] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[08:05:42] [Server thread/INFO]: Running delayed init tasks
-[08:05:42] [Server thread/INFO]: Done (24.529s)! For help, type "help"
-[08:05:42] [Craft Scheduler Thread - 3 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.8.2
-[08:05:42] [Craft Scheduler Thread - 3 - BetterStructures/INFO]: [BetterStructures] Your version is 1.8.2
-[08:05:42] [Craft Scheduler Thread - 3 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
-[08:07:38] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
-[08:07:38] [localSession-7-2/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
-[08:07:38] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
-[08:07:38] [Server thread/INFO]: .DatKaiggamer joined the game
-[08:07:38] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 74 at ([world]-478.5, 72.0, -197.5)
-[08:08:06] [Server thread/INFO]: .DatKaiggamer has made the advancement [Monster Hunter]
-[08:08:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
-[08:08:46] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
-[08:08:46] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
-[08:08:46] [Server thread/INFO]: .DatKaiggamer left the game
-[08:09:52] [User Authenticator #0/INFO]: UUID of player mtuan1256 is caacfe0c-1343-3ab9-acb7-fb2bdb5ccf69
-[08:09:54] [Server thread/INFO]: mtuan1256 joined the game
-[08:09:54] [Server thread/INFO]: mtuan1256[/127.69.101.80:37441] logged in with entity id 343 at ([world]-474.9756455517771, 66.0, -220.67758389294687)
-[08:10:18] [Server thread/INFO]: mtuan1256 lost connection: Disconnected
-[08:10:18] [Server thread/INFO]: mtuan1256 left the game
-[08:13:17] [Server thread/INFO]: Stopping server
-[08:13:17] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.0-SNAPSHOT
-[08:13:17] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[08:13:17] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[08:13:17] [Server thread/INFO]: [BetterStructures] Disabling BetterStructures v1.8.2
-[08:13:17] [Server thread/INFO]: [BetterStructures] Shutdown!
-[08:13:17] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[08:13:17] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
-[08:13:17] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[08:13:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.15-beta-01+5a731d2
-[08:13:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[08:13:17] [Server thread/INFO]: Saving players
-[08:13:17] [Server thread/INFO]: Saving worlds
-[08:13:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[08:13:17] [WebSocketConnectReadThread-82/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Saved 26 block chunks, 137 entity chunks, 0 poi chunks in world 'world' in 0.09s
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[08:13:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[08:13:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[08:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[08:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:13:17] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[08:13:17] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[08:13:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[08:13:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[14:12:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:12:17] [ServerMain/INFO]: Loaded 1407 recipes
+[14:12:17] [ServerMain/INFO]: Loaded 1520 advancements
+[14:12:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:12:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 456.3ms
+[14:12:18] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[14:12:18] [Server thread/INFO]: Loading properties
+[14:12:18] [Server thread/INFO]: This server is running Paper version 1.21.6-47-main@57c202e (2025-06-28T20:15:05Z) (Implementing API version 1.21.6-R0.1-SNAPSHOT)
+[14:12:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:12:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:12:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:12:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:12:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:12:19] [Server thread/INFO]: Default game type: SURVIVAL
+[14:12:19] [Server thread/INFO]: Generating keypair
+[14:12:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:12:19] [Server thread/INFO]: Using epoll channel type
+[14:12:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:12:19] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:12:20] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.15-beta-01+5a731d2
+[14:12:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4080b326]
+[14:12:20] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[14:12:20] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:12:21] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[14:12:21] [Server thread/INFO]: [floodgate] Took 799ms to boot Floodgate
+[14:12:21] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.8.2
+[14:12:21] [Server thread/INFO]: [BetterStructures] MagmaCore v1.13-SNAPSHOT initialized!
+[14:12:21] [Server thread/INFO]: [BetterStructures] Registered /logify command
+[14:12:21] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[14:12:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.0-SNAPSHOT
+[14:12:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[14:12:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[14:12:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:12:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.15-beta-01+5a731d2
+[14:12:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:12:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:12:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[14:12:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:12:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:12:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:12:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:12:24] [Server thread/INFO]: Preparing level "world"
+[14:12:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:12:25] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:26] [Server thread/INFO]: Time elapsed: 1086 ms
+[14:12:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:26] [Server thread/INFO]: Time elapsed: 272 ms
+[14:12:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:12:26] [Server thread/INFO]: Preparing spawn area: 0%
+[14:12:26] [Server thread/INFO]: Time elapsed: 122 ms
+[14:12:26] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world) Blacklist loaded with 2 entries.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_nether) Blacklist loaded with 2 entries.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Blacklist loaded with 2 entries.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:12:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:12:26] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:12:27] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:12:27] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.8.2
+[14:12:27] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[14:12:27] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[14:12:27] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[14:12:27] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[14:12:27] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[14:12:27] [Server thread/INFO]: [BetterStructures] Initialized version 1.8.2!
+[14:12:27] [Server thread/INFO]: [BetterStructures] Supported server version detected: v1_21_R5
+[14:12:27] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 60 ms to scan 1 urls, producing 1 keys and 5 values
+[14:12:28] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 10 ms to scan 1 urls, producing 1 keys and 29 values
+[14:12:28] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[14:12:28] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 64 ms to scan 121 urls, producing 0 keys and 0 values
+[14:12:28] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 5 ms to scan 1 urls, producing 1 keys and 8 values
+[14:12:28] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.0-SNAPSHOT
+[14:12:28] [Server thread/INFO]: [spark] Starting background profiler...
+[14:12:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:12:29] [Server thread/INFO]: [Geyser-Spigot] 
+[14:12:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.0-b867 (git-master-a768be3)
+[14:12:29] [Server thread/INFO]: [Geyser-Spigot] 
+[14:12:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:12:33] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[14:12:33] [Server thread/INFO]: [Geyser-Spigot] Done (4.278s)! Run /geyser help for help!
+[14:12:33] [Server thread/INFO]: Done preparing level "world" (9.678s)
+[14:12:33] [Server thread/INFO]: Starting GS4 status listener
+[14:12:33] [Server thread/INFO]: Thread Query Listener started
+[14:12:33] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[14:12:33] [Server thread/INFO]: Running delayed init tasks
+[14:12:33] [Server thread/INFO]: Done (24.379s)! For help, type "help"
+[14:12:34] [Craft Scheduler Thread - 3 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.8.2
+[14:12:34] [Craft Scheduler Thread - 3 - BetterStructures/INFO]: [BetterStructures] Your version is 1.8.2
+[14:12:34] [Craft Scheduler Thread - 3 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[14:13:08] [User Authenticator #0/INFO]: UUID of player mtuan1256 is caacfe0c-1343-3ab9-acb7-fb2bdb5ccf69
+[14:13:09] [Server thread/INFO]: mtuan1256 joined the game
+[14:13:09] [Server thread/INFO]: mtuan1256[/127.217.164.8:42821] logged in with entity id 73 at ([world]-477.7632335628146, 69.0, -208.5727193492954)
+[14:13:14] [Server thread/INFO]: mtuan1256 lost connection: Disconnected
+[14:13:14] [Server thread/INFO]: mtuan1256 left the game
+[14:18:42] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.0.0.1 has disconnected for reason Bedrock client disconnected
+[14:19:01] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[14:19:01] [localSession-7-2/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[14:19:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[14:19:02] [Server thread/INFO]: .DatKaiggamer joined the game
+[14:19:02] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 215 at ([world]-485.42902, 66.0, -196.32812)
+[14:19:20] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username TinsMC
+[14:19:20] [localSession-7-3/INFO]: [Geyser-Spigot] TinsMC (logged in as: TinsMC) has connected to the Java server
+[14:19:20] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TinsMC joined (UUID: 00000000-0000-0000-0009-01fada5809bc)
+[14:19:20] [Server thread/INFO]: .TinsMC joined the game
+[14:19:20] [Server thread/INFO]: .TinsMC[/127.0.0.1:0] logged in with entity id 274 at ([world]-478.5, 72.0, -199.5)
+[14:19:34] [Server thread/WARN]: .TinsMC was kicked for floating too long!
+[14:19:34] [Server thread/INFO]: .TinsMC lost connection: Flying is not enabled on this server
+[14:19:34] [localSession-7-3/INFO]: [Geyser-Spigot] TinsMC has disconnected from the Java server because of End of stream
+[14:19:34] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .TinsMC disconnected
+[14:19:34] [Server thread/INFO]: .TinsMC left the game
+[14:19:37] [User Authenticator #1/INFO]: UUID of player mtuan1256 is caacfe0c-1343-3ab9-acb7-fb2bdb5ccf69
+[14:19:38] [Server thread/INFO]: mtuan1256 joined the game
+[14:19:38] [Server thread/INFO]: mtuan1256[/127.217.164.8:39653] logged in with entity id 323 at ([world]-477.7632335628146, 69.0, -208.5727193492954)
+[14:19:54] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client disconnected
+[14:19:54] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[14:19:54] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[14:19:54] [Server thread/INFO]: .DatKaiggamer left the game
+[14:20:16] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username TinsMC
+[14:20:16] [localSession-7-4/INFO]: [Geyser-Spigot] TinsMC (logged in as: TinsMC) has connected to the Java server
+[14:20:16] [User Authenticator #1/INFO]: UUID of player TinsMC is 271b55d5-3fee-3027-8f49-1ccb7ad09c16
+[14:20:16] [Server thread/INFO]: TinsMC joined the game
+[14:20:16] [Server thread/INFO]: TinsMC[/127.0.0.1:0] logged in with entity id 397 at ([world]-484.5, 65.0, -195.5)
+[14:20:35] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[14:20:35] [localSession-7-1/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[14:20:36] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[14:20:36] [Server thread/INFO]: .DatKaiggamer joined the game
+[14:20:36] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 447 at ([world]-481.8077, 68.0, -200.65282)
+[14:20:55] [Async Chat Thread - #0/INFO]: [Not Secure] <.DatKaiggamer> 3 thak
+[14:21:02] [Server thread/INFO]: .DatKaiggamer was slain by mtuan1256
+[14:22:00] [Server thread/INFO]: .DatKaiggamer was slain by mtuan1256
+[14:22:26] [Server thread/INFO]: mtuan1256 was slain by .DatKaiggamer
+[14:22:37] [Server thread/INFO]: TinsMC has made the advancement [Stone Age]
+[14:23:20] [Server thread/INFO]: TinsMC was slain by mtuan1256
+[14:23:22] [Server thread/INFO]: mtuan1256 has made the advancement [Stone Age]
+[14:23:41] [Async Chat Thread - #1/INFO]: [Not Secure] <mtuan1256> dc
+[14:24:16] [Server thread/INFO]: mtuan1256 has made the advancement [Getting an Upgrade]
+[14:24:57] [Server thread/INFO]: .DatKaiggamer has made the advancement [Stone Age]
+[14:24:58] [Server thread/INFO]: TinsMC has made the advancement [Getting an Upgrade]
+[14:25:17] [Server thread/INFO]: .DatKaiggamer has made the advancement [Getting an Upgrade]
+[14:27:33] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
+[14:27:33] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[14:27:33] [Server thread/INFO]: .DatKaiggamer lost connection: Internal Exception: java.nio.channels.ClosedChannelException
+[14:27:33] [Server thread/INFO]: .DatKaiggamer left the game
+[14:28:44] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[14:28:44] [localSession-7-2/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[14:28:44] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[14:28:44] [Server thread/INFO]: .DatKaiggamer joined the game
+[14:28:44] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 2191 at ([world]-468.10657, 77.0, -277.5597)
+[14:29:02] [Server thread/INFO]: mtuan1256 has made the advancement [Acquire Hardware]
+[14:29:21] [Server thread/INFO]: mtuan1256 lost connection: Disconnected
+[14:29:21] [Server thread/INFO]: mtuan1256 left the game
+[14:29:40] [Server thread/INFO]: TinsMC has made the advancement [Monster Hunter]
+[14:30:13] [Server thread/INFO]: TinsMC was blown up by Creeper
+[14:30:41] [User Authenticator #2/INFO]: UUID of player mtuan1256 is caacfe0c-1343-3ab9-acb7-fb2bdb5ccf69
+[14:30:43] [Server thread/INFO]: mtuan1256 joined the game
+[14:30:43] [Server thread/INFO]: mtuan1256[/127.217.164.8:43519] logged in with entity id 2795 at ([world]-418.5766373207929, 48.0, -357.01942678557486)
+[14:30:46] [Server thread/INFO]: mtuan1256 lost connection: Disconnected
+[14:30:46] [Server thread/INFO]: mtuan1256 left the game
+[14:31:22] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client disconnected
+[14:31:22] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[14:31:22] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[14:31:22] [Server thread/INFO]: .DatKaiggamer left the game
+[14:31:28] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] TinsMC has disconnected from the Java server because of Bedrock client disconnected
+[14:31:28] [Server thread/INFO]: TinsMC lost connection: Disconnected
+[14:31:28] [Server thread/INFO]: TinsMC left the game
+[14:33:08] [User Authenticator #3/INFO]: UUID of player mtuan1256 is caacfe0c-1343-3ab9-acb7-fb2bdb5ccf69
+[14:33:09] [Server thread/INFO]: mtuan1256 joined the game
+[14:33:09] [Server thread/INFO]: mtuan1256[/127.217.164.8:58613] logged in with entity id 2945 at ([world]-418.5766373207929, 48.0, -357.01942678557486)
+[14:33:13] [Server thread/INFO]: mtuan1256 lost connection: Disconnected
+[14:33:13] [Server thread/INFO]: mtuan1256 left the game
+[14:33:28] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[14:33:28] [localSession-7-3/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[14:33:28] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[14:33:28] [Server thread/INFO]: .DatKaiggamer joined the game
+[14:33:28] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 3000 at ([world]-451.30001, 68.0, -316.51923)
+[14:34:51] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username Kisaymc198
+[14:34:51] [localSession-7-4/INFO]: [Geyser-Spigot] Kisaymc198 (logged in as: Kisaymc198) has connected to the Java server
+[14:34:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Kisaymc198 joined (UUID: 00000000-0000-0000-0009-01f3b16bafe9)
+[14:34:52] [Server thread/INFO]: .Kisaymc198 joined the game
+[14:34:52] [Server thread/INFO]: .Kisaymc198[/127.0.0.1:0] logged in with entity id 3184 at ([world]-494.5, 70.0, -201.5)
+[14:35:24] [User Authenticator #4/INFO]: UUID of player mtuan1256 is caacfe0c-1343-3ab9-acb7-fb2bdb5ccf69
+[14:35:25] [Server thread/INFO]: mtuan1256 joined the game
+[14:35:25] [Server thread/INFO]: mtuan1256[/127.217.164.8:34447] logged in with entity id 3307 at ([world]-418.5766373207929, 48.0, -357.01942678557486)
+[14:35:57] [Server thread/INFO]: .DatKaiggamer issued server command: /w .Kisaymc198 họn nó chx chs dc
+[14:36:13] [Server thread/INFO]: .DatKaiggamer has made the advancement [Acquire Hardware]
+[14:36:27] [Server thread/INFO]: .DatKaiggamer has made the advancement [Isn't It Iron Pick]
+[14:37:06] [Server thread/INFO]: .DatKaiggamer issued server command: /w mtuan1256 giờ sever hơi ít nhể
+[14:37:18] [Server thread/INFO]: .DatKaiggamer was blown up by Creeper
+[14:38:01] [Server thread/INFO]: mtuan1256 has made the advancement [Not Today, Thank You]
+[14:38:56] [Server thread/INFO]: .Kisaymc198 has made the advancement [Stone Age]
+[14:40:04] [Server thread/INFO]: .Kisaymc198 has made the advancement [Getting an Upgrade]
+[14:43:18] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .Kisaymc198 disconnected
+[14:43:18] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Kisaymc198 has disconnected from the Java server because of Bedrock client disconnected
+[14:43:18] [Server thread/INFO]: .Kisaymc198 lost connection: Disconnected
+[14:43:18] [Server thread/INFO]: .Kisaymc198 left the game
+[14:44:15] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Kisaymc198
+[14:44:15] [localSession-7-1/INFO]: [Geyser-Spigot] Kisaymc198 (logged in as: Kisaymc198) has connected to the Java server
+[14:44:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Kisaymc198 joined (UUID: 00000000-0000-0000-0009-01f3b16bafe9)
+[14:44:15] [Server thread/INFO]: .Kisaymc198 joined the game
+[14:44:15] [Server thread/INFO]: .Kisaymc198[/127.0.0.1:0] logged in with entity id 5303 at ([world]-423.3, 27.0, -362.59277)
+[14:44:23] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[14:44:23] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
+[14:44:23] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[14:44:23] [Server thread/INFO]: .DatKaiggamer left the game
+[14:45:16] [Server thread/INFO]: mtuan1256 has made the advancement [Isn't It Iron Pick]
+[14:46:07] [Server thread/INFO]: mtuan1256 has made the advancement [Suit Up]
+[14:50:37] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[14:50:37] [localSession-7-2/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[14:50:37] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[14:50:37] [Server thread/INFO]: .DatKaiggamer joined the game
+[14:50:37] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 6132 at ([world]-396.69999, 9.0, -407.69999)
+[14:54:29] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .Kisaymc198 disconnected
+[14:54:29] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Kisaymc198 has disconnected from the Java server because of Bedrock client disconnected
+[14:54:29] [Server thread/INFO]: .Kisaymc198 lost connection: Disconnected
+[14:54:29] [Server thread/INFO]: .Kisaymc198 left the game
+[14:54:46] [Server thread/INFO]: .DatKaiggamer has made the advancement [Diamonds!]
+[14:55:14] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username Kisaymc198
+[14:55:14] [localSession-7-3/INFO]: [Geyser-Spigot] Kisaymc198 (logged in as: Kisaymc198) has connected to the Java server
+[14:55:15] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Kisaymc198 joined (UUID: 00000000-0000-0000-0009-01f3b16bafe9)
+[14:55:15] [Server thread/INFO]: .Kisaymc198 joined the game
+[14:55:15] [Server thread/INFO]: .Kisaymc198[/127.0.0.1:0] logged in with entity id 8786 at ([world]-413.358154296875, 62.23747863769531, -841.0953369140625)
+[14:59:22] [Server thread/INFO]: mtuan1256 fell from a high place
+[14:59:37] [Async Chat Thread - #7/INFO]: [Not Secure] <.DatKaiggamer> ;)
+[14:59:53] [Async Chat Thread - #7/INFO]: [Not Secure] <.DatKaiggamer> kisay
+[15:00:00] [Async Chat Thread - #7/INFO]: [Not Secure] <.DatKaiggamer> cận thận mất đồ ấy em
+[15:00:15] [Async Chat Thread - #7/INFO]: [Not Secure] <.Kisaymc198> =)))
+[15:00:20] [Server thread/WARN]: .Kisaymc198 moved wrongly!
+[15:00:21] [Server thread/WARN]: .Kisaymc198 moved wrongly!
+[15:01:37] [Server thread/INFO]: mtuan1256 lost connection: Disconnected
+[15:01:37] [Server thread/INFO]: mtuan1256 left the game
+[15:05:04] [Server thread/INFO]: .DatKaiggamer has made the advancement [Cover Me with Diamonds]
+[15:08:07] [Server thread/INFO]: .Kisaymc198 has made the advancement [Sweet Dreams]
+[15:10:07] [Server thread/INFO]: .DatKaiggamer issued server command: /w .Kisaymc198 toà độ
+[15:10:39] [Async Chat Thread - #10/INFO]: [Not Secure] <.DatKaiggamer> ê kisay
+[15:10:43] [Async Chat Thread - #10/INFO]: [Not Secure] <.Kisaymc198> dạ
+[15:10:49] [Async Chat Thread - #10/INFO]: [Not Secure] <.Kisaymc198> để em gửi
+[15:11:25] [Server thread/INFO]: .Kisaymc198 issued server command: /w datkaiggamer -656 -2022
+[15:11:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client disconnected
+[15:11:34] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[15:11:34] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[15:11:34] [Server thread/INFO]: .DatKaiggamer left the game
+[15:16:36] [Server thread/INFO]: .Kisaymc198 has made the advancement [Acquire Hardware]
+[15:16:58] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[15:16:58] [localSession-7-4/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[15:16:59] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[15:16:59] [Server thread/WARN]: [floodgate] Missing locale file: vi_VN
+[15:16:59] [Server thread/INFO]: .DatKaiggamer joined the game
+[15:16:59] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 17373 at ([world]-514.497, -53.0, -604.30001)
+[15:17:35] [Server thread/INFO]: .DatKaiggamer issued server command: /w .Kisaymc198 toà độ em
+[15:18:06] [Server thread/INFO]: .Kisaymc198 issued server command: /w datkaiggamer -676 -2032 anh ơi
+[15:18:57] [Async Chat Thread - #13/INFO]: [Not Secure] <.DatKaiggamer> nhắn thầm với anh đi anh ko xem dc mess
+[15:19:28] [Server thread/INFO]: .Kisaymc198 issued server command: /w datkaiggamer-676 -2032
+[15:19:49] [Async Chat Thread - #13/INFO]: [Not Secure] <.Kisaymc198> no player was found???
+[15:20:11] [Async Chat Thread - #13/INFO]: [Not Secure] <.DatKaiggamer> em nhấn /w DatKaiggamer
+[15:20:49] [Server thread/INFO]: .Kisaymc198 issued server command: /w DatKaiggamer -676 -2034
+[15:21:09] [Server thread/INFO]: .Kisaymc198 issued server command: /w datkaiggamer nhắn hog dc
+[15:21:16] [Async Chat Thread - #15/INFO]: [Not Secure] <.Kisaymc198> cũng v anh oi
+[15:21:38] [Async Chat Thread - #15/INFO]: [Not Secure] <.DatKaiggamer> sao anh nhắn m dc mà m ko nhắn anh dc nhể
+[15:21:49] [Async Chat Thread - #15/INFO]: [Not Secure] <.Kisaymc198> =)) v ms lạ
+[15:21:57] [Async Chat Thread - #15/INFO]: [Not Secure] <.DatKaiggamer> đọc luôn toà độ đi
+[15:22:00] [Async Chat Thread - #15/INFO]: [Not Secure] <.DatKaiggamer> sever cs ai đâu
+[15:22:07] [Async Chat Thread - #15/INFO]: [Not Secure] <.Kisaymc198> -676 -2034
+[15:22:42] [Server thread/INFO]: .Kisaymc198 has made the advancement [Monster Hunter]
+[15:22:50] [Async Chat Thread - #15/INFO]: [Not Secure] <.DatKaiggamer> ở đấy đợi ah qua
+[15:27:41] [Server thread/WARN]: .DatKaiggamer moved wrongly!
+[15:28:05] [Server thread/INFO]: .Kisaymc198 has made the advancement [Isn't It Iron Pick]
+[15:29:17] [Async Chat Thread - #17/INFO]: [Not Secure] <.DatKaiggamer> đâu
+[15:29:32] [Async Chat Thread - #17/INFO]: [Not Secure] <.Kisaymc198> em ở dưới
+[15:29:57] [Server thread/INFO]: .DatKaiggamer has made the advancement [Sweet Dreams]
+[15:30:07] [Async Chat Thread - #17/INFO]: [Not Secure] <.DatKaiggamer> chỗ này đẹp đấy
+[15:30:33] [Async Chat Thread - #17/INFO]: [Not Secure] <.Kisaymc198> ah đâu đấy
+[15:31:27] [Server thread/INFO]: .DatKaiggamer issued server command: /713
+[15:31:36] [Async Chat Thread - #19/INFO]: [Not Secure] <.DatKaiggamer> -713
+[15:31:41] [Async Chat Thread - #19/INFO]: [Not Secure] <.DatKaiggamer> -2072
+[15:31:57] [Server thread/WARN]: .Kisaymc198 moved wrongly!
+[15:32:58] [Server thread/INFO]: .Kisaymc198 has made the advancement [Diamonds!]
+[15:34:02] [Async Chat Thread - #21/INFO]: [Not Secure] <.DatKaiggamer> lm nhà đây nhé
+[15:34:05] [Async Chat Thread - #21/INFO]: [Not Secure] <.Kisaymc198> bấm vô bàn chế ko dc luôn =)
+[15:34:10] [Async Chat Thread - #21/INFO]: [Not Secure] <.Kisaymc198> ok anh
+[15:34:36] [Async Chat Thread - #21/INFO]: [Not Secure] <.DatKaiggamer> anh thấy mượt mà
+[15:34:53] [Async Chat Thread - #21/INFO]: [Not Secure] <.DatKaiggamer> 1 là do mạng em 2 là do sever lâu lâu nó lag
+[15:35:00] [Async Chat Thread - #21/INFO]: [Not Secure] <.DatKaiggamer> mà đợi tí ah đi lấy cái skin
+[15:35:14] [Async Chat Thread - #21/INFO]: [Not Secure] <.Kisaymc198> chắc mạng em
+[15:35:35] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[15:35:35] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
+[15:35:35] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[15:35:35] [Server thread/INFO]: .DatKaiggamer left the game
+[15:40:04] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .Kisaymc198 disconnected
+[15:40:04] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Kisaymc198 has disconnected from the Java server because of Bedrock client disconnected
+[15:40:04] [Server thread/INFO]: .Kisaymc198 lost connection: Disconnected
+[15:40:04] [Server thread/INFO]: .Kisaymc198 left the game
+[15:40:24] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username HardlineGecko69
+[15:40:24] [localSession-7-1/INFO]: [Geyser-Spigot] HardlineGecko69 (logged in as: HardlineGecko69) has connected to the Java server
+[15:40:25] [Server thread/INFO]: [floodgate] Floodgate player logged in as .HardlineGecko69 joined (UUID: 00000000-0000-0000-0009-01f4b4ec5ca5)
+[15:40:25] [Server thread/WARN]: [floodgate] Missing locale file: vi_VN
+[15:40:25] [Server thread/INFO]: .HardlineGecko69 joined the game
+[15:40:25] [Server thread/INFO]: .HardlineGecko69[/127.0.0.1:0] logged in with entity id 23457 at ([world]-477.5, 79.0, -191.5)
+[15:42:02] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .HardlineGecko69 disconnected
+[15:42:02] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] HardlineGecko69 has disconnected from the Java server because of Bedrock client disconnected
+[15:42:02] [Server thread/INFO]: .HardlineGecko69 lost connection: Disconnected
+[15:42:02] [Server thread/INFO]: .HardlineGecko69 left the game
+[15:43:04] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username HardlineGecko69
+[15:43:04] [localSession-7-2/INFO]: [Geyser-Spigot] HardlineGecko69 (logged in as: HardlineGecko69) has connected to the Java server
+[15:43:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .HardlineGecko69 joined (UUID: 00000000-0000-0000-0009-01f4b4ec5ca5)
+[15:43:04] [Server thread/INFO]: .HardlineGecko69 joined the game
+[15:43:04] [Server thread/INFO]: .HardlineGecko69[/127.0.0.1:0] logged in with entity id 23726 at ([world]-469.89325, 71.0, -245.20894)
+[15:46:56] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] HardlineGecko69 has disconnected from the Java server because of Bedrock client disconnected
+[15:46:56] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .HardlineGecko69 disconnected
+[15:46:56] [Server thread/INFO]: .HardlineGecko69 lost connection: Disconnected
+[15:46:56] [Server thread/INFO]: .HardlineGecko69 left the game
+[15:52:45] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[15:52:45] [localSession-7-3/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[15:52:46] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[15:52:46] [Server thread/WARN]: [floodgate] Missing locale file: vi_VN
+[15:52:46] [Server thread/INFO]: .DatKaiggamer joined the game
+[15:52:46] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 24210 at ([world]-715.7159, 70.0, -2071.0095)
+[15:54:42] [Async Chat Thread - #23/INFO]: [Not Secure] <.DatKaiggamer> -713
+[15:54:58] [Async Chat Thread - #23/INFO]: [Not Secure] <.DatKaiggamer> -713 70 -2023
+[15:55:05] [Async Chat Thread - #23/INFO]: [Not Secure] <.DatKaiggamer> -713 70 -2072
+[15:55:22] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client disconnected
+[15:55:22] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[15:55:22] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[15:55:22] [Server thread/INFO]: .DatKaiggamer left the game
+[16:08:31] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[16:08:31] [localSession-7-4/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[16:08:31] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[16:08:31] [Server thread/WARN]: [floodgate] Missing locale file: vi_VN
+[16:08:31] [Server thread/INFO]: .DatKaiggamer joined the game
+[16:08:31] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 24734 at ([world]-712.4751, 70.0, -2071.4768)
+[16:33:55] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[16:33:55] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
+[16:33:55] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[16:33:55] [Server thread/INFO]: .DatKaiggamer left the game
+[16:36:20] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[16:36:20] [localSession-7-1/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[16:36:20] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[16:36:20] [Server thread/WARN]: [floodgate] Missing locale file: vi_VN
+[16:36:20] [Server thread/INFO]: .DatKaiggamer joined the game
+[16:36:20] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 28492 at ([world]-692.66187, 70.0, -2075.416)
+[16:39:31] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
+[16:39:31] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[16:39:31] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[16:39:31] [Server thread/INFO]: .DatKaiggamer left the game
+[16:42:43] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username DatKaiggamer
+[16:42:43] [localSession-7-2/INFO]: [Geyser-Spigot] DatKaiggamer (logged in as: DatKaiggamer) has connected to the Java server
+[16:42:44] [Server thread/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer joined (UUID: 00000000-0000-0000-0009-01f54c636e5d)
+[16:42:44] [Server thread/WARN]: [floodgate] Missing locale file: vi_VN
+[16:42:44] [Server thread/INFO]: .DatKaiggamer joined the game
+[16:42:44] [Server thread/INFO]: .DatKaiggamer[/127.0.0.1:0] logged in with entity id 29350 at ([world]-679.2482, 68.0, -2145.7402)
+[16:51:33] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] DatKaiggamer has disconnected from the Java server because of Bedrock client timed out
+[16:51:33] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .DatKaiggamer disconnected
+[16:51:33] [Server thread/INFO]: .DatKaiggamer lost connection: Disconnected
+[16:51:33] [Server thread/INFO]: .DatKaiggamer left the game
