@@ -13,18 +13,18 @@ regionProtectedMessage: '&8[BetterStructures] &cDefeat the zone''s bosses to edi
   blocks!'
 protectEliteMobsRegions: true
 setupDone: false
-modularChunkPastingSpeed: 15
+modularChunkPastingSpeed: 20
 # Sets the maximum percentage of a tick that BetterStructures will use to paste builds, however many it maybe trying to generate.
 # Ranges from 0.01 to 1, where 0.01 is 1% and 1 is 100%.
 # Slower speeds will lower performance impact, but can lead to other problems such as builds suddenly popping in.
-percentageOfTickUsedForPasting: 0.3
-distanceSurface: 24
-distanceShallow: 16
-distanceDeep: 16
-distanceSky: 65
-distanceLiquid: 18
-maxOffsetSurface: 3
-maxOffsetShallow: 3
-maxOffsetDeep: 3
-maxOffsetSky: 3
-maxOffsetLiquid: 3
+percentageOfTickUsedForPasting: 0.4
+distanceSurface: 20
+distanceShallow: 15
+distanceDeep: 15
+distanceSky: 60
+distanceLiquid: 40
+maxOffsetSurface: 2
+maxOffsetShallow: 2
+maxOffsetDeep: 2
+maxOffsetSky: 2
+maxOffsetLiquid: 2

@@ -64,3 +64,5 @@
 [firework_rocket,firework_star]
 on-use=deny,tell
 on-place=deny,tell
+
+
