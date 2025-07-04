@@ -65,4 +65,8 @@
 on-use=deny,tell
 on-place=deny,tell
 
+[enchanting_table]
+on-place=deny,tell
+on-use=deny,tell
+message=§cBạn không được phép sử dụng Bàn Enchant trong khu vực này!
 
